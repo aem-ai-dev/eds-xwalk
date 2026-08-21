@@ -184,7 +184,7 @@
                 "template": {
                   "name": "List",
                   "model": "list",
-                  "title": "List Title"
+                  "listTitle": "List Title Comes Here"
                 }
               }
             }
