@@ -246,5 +246,30 @@
         ]
       }
     ]
+  },
+  {
+    "id": "list",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "List Title",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "color",
+        "value": "",
+        "label": "Background Color",
+        "description": "The list background color",
+        "valueType": "string",
+        "options": [
+          { "name": "Red", "value": "list-bg-red" },
+          { "name": "Green", "value": "list-bg-green" },
+          { "name": "Blue", "value": "list-bg-blue" }
+        ]
+      }
+    ]
   }
 ]
